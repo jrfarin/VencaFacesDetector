@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <title>Face Detection Plugin</title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Tamma" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.min.css">
+</head>
+<body>
+    <div class="loading">Loading...</div>
+    
+    <div class="content">
+        <!-- Image demo -->
+        <section class="splash">
+            <div class="container">
+                <i class="icon-logo logo wow rubberBand"></i>
+
+                <div class="demo-img-container">
+                    <div class="demo-img-wrapper">
+                        <img id="demo-img" class="demo-img" src="img/faces7.jpg">
+                        <div class="spinner"></div>
+                    </div>
+                    <a class="do-img-detect" href="#">
+                        <i class="icon-tryit demo-img-click wow rubberBand" data-wow-delay="1s"></i>
+                    </a>
+                    <div id="portraits" class="portraits"></div>
+                </div>         
+            </div>
+        </section>
+
+        <!-- Text blocks -->
+        <section class="block">
+            <div class="container">
+                <div class="row">
+                       
+                </div>
+            </div>
+        </section>
+
+        <!-- Video demo -->
+        <section class="splash hide-on-mobile">
+            <div class="container">
+                <div class="demo-video-container">
+                    <div class="demo-video-wrapper">
+                        <video id="demo-video" class="demo-video" loop>
+                            <source src="videos/video.mp4"  type="video/mp4">
+                            <source src="videos/video.ogv"  type="video/ogg">
+                            <source src="videos/video.webm" type="video/webm">
+                        </video>
+                        <i id="play-video" class="icon-play"></i>
+                    </div>
+                    <a class="do-video-detect" href="#">
+                        <i class="icon-tryit demo-video-click wow rubberBand" data-wow-delay="1s"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="overlay">
+                <span>This demo is not available<br>on this device</span>
+            </div>
+        </section>
+
+        <!-- separator -->
+        <section class="block hide-on-mobile separator">
+            <div class="container">
+                <div class="row">
+                    <div class="medium-12">
+                        <i class="icon-logo"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Source and download -->
+
+        <section class="block-alt">
+            <i class="icon-background icon-github"></i>
+
+            <div class="container">            
+                <div class="row">
+                    <div class="medium-12">
+                        <a class="wow flipInX btn btn-github" data-wow-delay="250ms" href="https://github.com/jaysalvat/jquery.facedetection" onclick="ga('send', 'event', 'Go to Github', 'Click', 'https://github.com/jaysalvat/jquery.facedetection')">
+                            Source code
+                            <small>On Github</small>
+                            <i class="icon-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+
+        <footer class="footer">
+            <div class="container">
+                <i class="icon-logo"></i>
+                <div class="footer-copyright">
+                    &#169; <span class="footer-year"></span> — <a href="http://jaysalvat.com">Venca Tech</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="http://bar.jaysalvat.com/bar.js"></script>
+    <script src="js/dist/jquery.facedetection.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/app.min.js"></script>
+    <script src="js/demo.js"></script>
+</body>
+</html>
