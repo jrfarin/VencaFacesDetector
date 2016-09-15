@@ -1,4 +1,3 @@
-# VencaFacesDetector
 Venca Faces Detector Plugin
 ============================
 
